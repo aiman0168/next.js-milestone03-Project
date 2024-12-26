@@ -33,13 +33,13 @@ const Sidebar = () => {
         
         <div className="p-4">
           <ul className="space-y-2 mt-4">
-            <li><a href="#womens-fashion" className="hover:underline">Women's Fashion</a></li>
-            <li><a href="#mens-fashion" className="hover:underline">Men's Fashion</a></li>
+            <li><a href="#womens-fashion" className="hover:underline">Womens Fashion</a></li>
+            <li><a href="#mens-fashion" className="hover:underline">Mens Fashion</a></li>
             <li><a href="#electronics" className="hover:underline">Electronics</a></li>
             <li><a href="#home-lifestyle" className="hover:underline">Home & Lifestyle</a></li>
             <li><a href="#medicine" className="hover:underline">Medicine</a></li>
             <li><a href="#sports-outdoor" className="hover:underline">Sports & Outdoor</a></li>
-            <li><a href="#babys-toys" className="hover:underline">Baby's & Toys</a></li>
+            <li><a href="#babys-toys" className="hover:underline">Babys & Toys</a></li>
             <li><a href="#groceries-pets" className="hover:underline">Groceries & Pets</a></li>
             <li><a href="#health-beauty" className="hover:underline">Health & Beauty</a></li>
           </ul>
