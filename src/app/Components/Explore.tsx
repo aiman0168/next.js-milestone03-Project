@@ -20,7 +20,7 @@ const ExploreProductCard: React.FC<ExploreCardProps> = ({ image, name, price, ra
 
         <div className="absolute top-2 right-2 flex gap-2 flex-col">
           <div className="bg-white rounded-full p-2 shadow-md w-10 h-10">
-            <Image src="/wishlist.png" alt="wishlist" width={40} height={40} />
+            <Image src="/Wishlist.png" alt="wishlist" width={40} height={40} />
           </div>
           <div className="bg-white rounded-full p-2 shadow-md w-10 h-10">
             <Image src="/Group.png" className="pt-1" alt="group" width={40} height={40} />
