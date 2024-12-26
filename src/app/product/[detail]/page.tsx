@@ -1,6 +1,7 @@
 "use client";
 import { useParams } from 'next/navigation';
 import React from 'react';
+import Image from 'next/image';
 
 const ProductDetail = () => {
   const { detail } = useParams();
@@ -22,7 +23,13 @@ const ProductDetail = () => {
     <div className="px-4 sm:px-8 md:px-16 mt-8">
       <div className="flex gap-8">
         <div className="w-1/2">
-          <img src={product.image} alt={product.name} className="w-full h-auto" />
+          <Image
+            src={product.image}
+            alt={product.name}
+            width={500}
+            height={500}
+            className="w-full h-auto"
+          />
         </div>
         <div className="w-1/2">
           <h1 className="text-2xl font-bold">{product.name}</h1>
