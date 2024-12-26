@@ -36,7 +36,7 @@ const BestSellingCard: React.FC<BestSellingCardProps> = ({
 
         <div className="absolute top-2 right-2 flex gap-2 flex-col">
           <div className="bg-white rounded-full p-2 shadow-md w-10 h-10">
-            <Image src="/wishlist.png" alt="wishlist" width={48} height={48} />
+            <Image src="/Wishlist.png" alt="wishlist" width={48} height={48} />
           </div>
           <div className="bg-white rounded-full p-2 shadow-md w-10 h-10">
             <Image src="/Group.png" className="pt-1 w-full h-full" width={48} height={48} alt="group" />
