@@ -37,7 +37,7 @@ const ProductCard: React.FC<ProductCardProps> = ({detail, image, name, price, ol
 
         <div className="absolute top-2 right-2 flex gap-2 flex-col">
           <div className="bg-white rounded-full p-2 shadow-md w-10 h-10">
-            <Image src="/wishlist.png" alt="wishlist" width={20} height={20} />
+            <Image src="/Wishlist.png" alt="wishlist" width={20} height={20} />
           </div>
           <div className="bg-white rounded-full p-2 shadow-md w-10 h-10">
             <Image src="/Group.png" className="pt-1" alt="group" width={20} height={20} />
