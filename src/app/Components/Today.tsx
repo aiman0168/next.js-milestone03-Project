@@ -12,7 +12,7 @@ const Today = () => {
           width={24}
           height={24}
         />
-        <h2 className="text-red-500 font-semibold text-xl sm:text-2xl">Today's</h2>
+        <h2 className="text-red-500 font-semibold text-xl sm:text-2xl">Todays</h2>
       </div>
       <div className="flex flex-col sm:flex-row items-center mt-6 sm:mt-8">
         <h2 className="text-3xl sm:text-4xl font-semibold text-black mr-16 sm:mr-8">
